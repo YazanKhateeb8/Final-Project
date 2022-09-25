@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home"
+            android:icon="@drawable/home_icon" />
+
+        <item
+            android:id="@+id/nav_tools"
+            android:title="Tools"
+            android:icon="@drawable/tools_icon" />
+
+        <item
+            android:id="@+id/nav_cart"
+            android:title="Extend Time"
+            android:icon="@drawable/time_icon" />
+
+        <item
+            android:id="@+id/nav_orders"
+            android:title="Orders"
+            android:icon="@drawable/orders_icon" />
+
+        <item
+            android:id="@+id/nav_addTool"
+            android:title="Add Tool"
+            android:icon="@drawable/add_product_icon" />
+
+        <item
+            android:id="@+id/nav_myTools"
+            android:title="My tools"
+            android:icon="@drawable/list_icon" />
+
+<!--        <item-->
+<!--            android:id="@+id/nav_test"-->
+<!--            android:title="Test" />-->
+
+        <item android:title="Profile" >
+
+            <menu>
+
+                <item
+                    android:id="@+id/nav_profile"
+                    android:title="Profile"
+                    android:icon="@drawable/profile_icon" />
+
+            </menu>
+
+        </item>
+
+
+        <item android:title="Logout">
+
+            <menu>
+
+
+                <item
+                    android:id="@+id/nav_logout"
+                    android:title="Logout"
+                    android:icon="@drawable/logout_icon" />
+
+            </menu>
+
+        </item>
+
+
+    </group>
+
+</menu>

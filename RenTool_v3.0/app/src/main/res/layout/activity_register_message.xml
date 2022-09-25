@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="25dp"
+        android:background="@color/white">
+
+       <ImageView
+           android:layout_width="match_parent"
+           android:layout_height="100dp"
+           android:src="@mipmap/check_mark"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="You have signed up
+             successfully"
+            android:textSize="35dp"
+            android:fontFamily="@font/bungee"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:layout_marginBottom="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Thank you for choosing RenTool"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="35dp"/>
+
+        <Button
+            android:id="@+id/goLogin"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="55dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#000"
+            android:text="Go to login"
+            android:textColor="#fff"
+            android:transitionName="goToLogin" />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

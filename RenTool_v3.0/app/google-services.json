@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "46038858287",
+    "firebase_url": "https://rentool-c018a-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "rentool-c018a",
+    "storage_bucket": "rentool-c018a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:46038858287:android:d6ee6e9d6b95c5fdfd24da",
+        "android_client_info": {
+          "package_name": "com.example.rentool"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "46038858287-g623n0kqvaqva6v0r3ip9jojt0g4skfo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpwmKaeg8FjN4arRInywl85Yxij6G0rQ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "46038858287-g623n0kqvaqva6v0r3ip9jojt0g4skfo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

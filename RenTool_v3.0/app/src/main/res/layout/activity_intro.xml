@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#face2f"
+    android:orientation="vertical"
+    tools:context=".activities.Intro">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="408dp"
+        android:layout_height="319dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="10dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/rentool_big"
+        android:transitionName="logo_image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/RenTool"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bangers"
+        android:gravity="center"
+        android:textColor="#B5000000"
+        android:text="RenTool"
+        android:transitionName="logo_text"
+        android:textSize="70sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo" />
+
+    <TextView
+        android:id="@+id/comment_1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/antic"
+        android:gravity="center"
+        android:text="Renting &amp; Lending tools"
+        android:textColor="#6D4C41"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/RenTool" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

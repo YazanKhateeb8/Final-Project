@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/buy_navigation"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.rentool.fragments.BuyHomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_buy_home" />
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="com.example.rentool.fragments.LogoutFragment"
+        android:label="Logout"
+        tools:layout="@layout/fragment_logout" />
+    <activity
+        android:id="@+id/nav_tools"
+        android:name="com.example.rentool.activities.All_Tools_Activity"
+        android:label="activity_buy_all_tools"
+        tools:layout="@layout/activity_buy_all_tools" />
+    <activity
+        android:id="@+id/nav_cart"
+        android:name="com.example.rentool.activities.Extend_Time_Activity"
+        android:label="Cart"
+        tools:layout="@layout/activity_buy_cart" />
+    <activity
+        android:id="@+id/nav_test"
+        android:name="com.example.rentool.activities.TestActivity"
+        android:label="Test"
+        tools:layout="@layout/activity_test" />
+
+    <activity
+        android:id="@+id/nav_orders"
+        android:name="com.example.rentool.activities.Orders_Activity"
+        android:label="Orders"
+        tools:layout="@layout/activity_buy_orders" />
+    <activity
+        android:id="@+id/nav_profile"
+        android:name="com.example.rentool.activities.User_Detail_Activity"
+        android:label="Profile"
+        tools:layout="@layout/activity_user_detail" />
+    <activity
+        android:id="@+id/nav_addTool"
+        android:name="com.example.rentool.activities.Add_Tool_Activity"
+        android:label="Add Tool"
+        tools:layout="@layout/activity_add_tool"/>
+    <activity
+        android:id="@+id/nav_myTools"
+        android:name="com.example.rentool.activities.MyTools_Activity"
+        android:label="My Tools"
+        tools:layout="@layout/activity_my_tools" />
+</navigation>

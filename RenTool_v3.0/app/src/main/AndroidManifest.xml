@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rentool">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/app_launcher_icon_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.RenTool">
+        <activity
+            android:name=".activities.Statistics_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Admin_Home_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Add_Payment_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.MyTools_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Map_Activity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/map_key" />
+
+        <activity
+            android:name=".activities.Add_Tool_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Profile_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.User_Detail_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Orders_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.TestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Payment_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Add_Address_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Address_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Extend_Time_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Tool_Details_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.All_Tools_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Main_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.forgotPassword"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Register"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Login"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Intro"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

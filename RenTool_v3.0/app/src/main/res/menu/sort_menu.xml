@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/sortBy"
+        android:title="Sort by"
+        app:showAsAction="always"
+        android:icon="@drawable/sort_icon">
+
+        <menu>
+
+        <item
+            android:title="Name: A to Z"
+            android:id="@+id/sort_nameAsc" />
+
+        <item
+            android:title="Name: Z to A"
+            android:id="@+id/sort_nameDes" />
+
+        <item
+            android:title="Price: Low to High"
+            android:id="@+id/sort_priceAsc" />
+
+            <item
+                android:title="Price: High to Low"
+                android:id="@+id/sort_priceDes" />
+
+            <item
+                android:title="Rating: High to Low"
+                android:id="@+id/sort_ratingDes" />
+
+            <item
+                android:title="Rating: Low to High"
+                android:id="@+id/sort_ratingAsc" />
+
+        </menu>
+
+    </item>
+
+
+
+
+</menu>
